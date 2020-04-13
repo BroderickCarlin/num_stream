@@ -6,7 +6,7 @@
 This crate provides a [Stream](https://docs.rs/futures/0.3.4/futures/stream/trait.Stream.html) that yields
 numeric values at a specifed interval and that increments at a specifed rate.
 
-[API Documentation](https://docs.rs/num_stream/0.1.0/num_stream/)
+[API Documentation](https://docs.rs/num_stream/0.1.1/num_stream/)
 
 [crates.io](https://crates.io/crates/num_stream)
 
