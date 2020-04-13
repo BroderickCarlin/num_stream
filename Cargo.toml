@@ -1,0 +1,17 @@
+[package]
+name = "num_stream"
+version = "0.1.0"
+authors = ["Broderick Carlin <broderick.carlin@gmail.com>"]
+edition = "2018"
+license = "Apache-2.0"
+license-file = "LICENSE"
+repository = "https://github.com/BroderickCarlin/num_stream"
+description = "Rust crate that provides a Stream that yields incrementing numbers at a specified interval"
+documentation = "https://docs.rs/num_stream/0.1.0/num_stream/"
+
+[dependencies]
+futures = "0.3" 
+tokio = {version = "0.2", features = ["time", "stream"]}
+
+[dev-dependencies]
+tokio = {version = "0.2", features = ["rt-threaded", "macros"]}
